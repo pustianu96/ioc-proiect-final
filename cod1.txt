@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeneaua Perfectă - Acasă</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="cafea1.jpg" alt="Logo Cafenea">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="menu.html">Meniu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="text-miscare">
+             <span>Avem cafea în așteptare!</span>
+            </div>
+
+            <h1>Bun venit la Cafeneaua Perfectă</h1>
+            <p>Cea mai bună cafea și cele mai delicioase deserturi te așteaptă!</p>
+        </section>
+        <section class="about">
+            <img src="1.jpg" alt="Cafea și prăjituri">
+            <p>Suntem o cafenea de familie, dedicată oferirii unei experiențe unice. La noi vei găsi cele mai bune băuturi calde, preparate cu pasiune, și un ambient relaxant perfect pentru oricine. <br>
+               CAFEAUA, indiferent că o cauți când te dai jos din pat, când ajungi la birou sau când te întâlnești cu prietenii la o terasă rămâne răsfățul suprem. <br> 
+               Ea este una dintre cele mai mari descoperiri, din motive practice de trezire a simțurilor sau sociale pentru conversațiile plăcute din jurul ei - indiferent de formă, de cantitatea de cofeină, de stratul de spumă sau de doza de lapte.</p>
+            <img src="2.jpg" alt="Cafea și prăjituri">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cafeneaua Perfectă. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>

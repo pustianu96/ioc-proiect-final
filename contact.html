@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeneaua Perfectă - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="cafea1.jpg" alt="Logo Cafenea">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="menu.html">Meniu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Contactează-ne</h2>
+            <p>Ne poți găsi la adresa:</p>
+            <p>Strada Unirii, Nr. 09, Focșani</p>
+            <p>Telefon: 0722 123 456</p>
+            <p>Email: contact@cafenea.ro</p>
+        </section>
+        <section class="reservation">
+            <h2>Formular de rezervare</h2>
+            <form action="#" method="post">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="cafea">Cafea în așteptare:</label>
+                  <select id="cafea" name="cafea" required>
+                  <option value="">Alege...</option> 
+                  <option value="da">Da</option>
+                  <option value="nu">Nu</option>
+                  </select>
+
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Rezervă acum</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cafeneaua Perfectă. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
